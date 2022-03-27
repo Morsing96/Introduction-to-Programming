@@ -1,9 +1,9 @@
-# \[Group name\]
+# \[HJN\]
 
 **Group members:**
-- A
-- B
-- C
+- Nada Hadraoui
+- Jonas Dieu Morsing
+- Henrietta Tuoamila
 
 This repository contains  
 1. Inaugural project. 
