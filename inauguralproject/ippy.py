@@ -88,6 +88,11 @@ def expected_utility_insured(q, mp, pi):
         (numpy.float): utility of assets for insured agent
     
     """
+
+    z_1 = mp['y'] - mp['x'] + q - pi
+    z_2 = mp['y'] - pi
+
+    return mp['p']*utility(z_1,mp)+(1-mp['p'])*utility(z_2,mp)
     
     return mp['p']*utility(z_1,mp)+(1-mp['p'])*utility(z_2,mp)
 
